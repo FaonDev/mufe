@@ -1,17 +1,21 @@
 {
   "author": "faon",
-  "description": "A cache-based database",
+  "description": "A cache-based database (alpha release)",
   "devDependencies": {
     "prettier": "^3.0.3",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   },
   "license": "MIT",
+  "main": "dist/index.js",
   "name": "mufe",
   "repository": {
     "url": "https://github.com/FaonDev/mufe"
   },
   "scripts": {
-    "format": "prettier --write ."
+    "build": "tsc",
+    "format": "prettier --write .",
+    "test": "tsx test"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
