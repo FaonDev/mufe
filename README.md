@@ -21,3 +21,7 @@ const [foo, setFoo] = mufe.use<string>("foo");
 
 if (!foo) setFoo("bar");
 ```
+
+## Examples
+
+[Mufe with Prisma](https://github.com/FaonDev/mufe-prisma)

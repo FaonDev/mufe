@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: README &amp; Repository">
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: Version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697826488511</updated>
       <workItem from="1697826489559" duration="2011000" />
-      <workItem from="1697836735133" duration="5161000" />
+      <workItem from="1697836735133" duration="5533000" />
     </task>
     <task id="LOCAL-00001" summary="NPM: Structure">
       <option name="closed" value="true" />
@@ -91,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697828039017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Package: Version">
+      <option name="closed" value="true" />
+      <created>1697842002926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697842002926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NPM: Structure" />
     <MESSAGE value="Package: README &amp; Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package: README &amp; Repository" />
+    <MESSAGE value="Package: Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package: Version" />
   </component>
 </project>
