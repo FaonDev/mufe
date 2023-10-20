@@ -3,7 +3,7 @@ export class MufeClient {
 
   constructor(public options?: { revalidation?: number }) {}
 
-  use<T>(key: string): [value: T, (value: T) => void] {
+  use<T>(key: string): [value: T, setValue: (value: T) => void] {
     const value = this.cacheMap.get(key);
 
     const setValue = (value: T) => {
