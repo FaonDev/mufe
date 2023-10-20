@@ -1,0 +1,14 @@
+{
+  "author": "faon",
+  "description": "A cache-based database",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "license": "MIT",
+  "name": "mufe",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "version": "0.1.0"
+}
