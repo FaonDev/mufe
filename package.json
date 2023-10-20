@@ -7,6 +7,9 @@
   },
   "license": "MIT",
   "name": "mufe",
+  "repository": {
+    "url": "https://github.com/FaonDev/mufe"
+  },
   "scripts": {
     "format": "prettier --write ."
   },
