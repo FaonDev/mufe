@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: Rewritten">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/insert-foo.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: Added ESLint &amp; Jest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +73,7 @@
       <workItem from="1697911476869" duration="721000" />
       <workItem from="1697913220719" duration="611000" />
       <workItem from="1697913844310" duration="601000" />
-      <workItem from="1697914455771" duration="1085000" />
+      <workItem from="1697914455771" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="NPM: Structure">
       <option name="closed" value="true" />
@@ -140,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697904919891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Package: Added ESLint &amp; Jest">
+      <option name="closed" value="true" />
+      <created>1697915687183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697915687183</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +176,7 @@
     <MESSAGE value="Package: Changed Tuple Type" />
     <MESSAGE value="Package: Changed Structure" />
     <MESSAGE value="Package: Rewritten" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package: Rewritten" />
+    <MESSAGE value="Package: Added ESLint &amp; Jest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package: Added ESLint &amp; Jest" />
   </component>
 </project>
