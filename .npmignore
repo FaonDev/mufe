@@ -1,5 +1,6 @@
 .eslintrc.js
 .idea
+.prettierrc
 jest.config.js
 mufe-*.tgz
 src

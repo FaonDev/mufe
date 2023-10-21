@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: Removed Peer Dependencies">
+    <list default="true" id="8b7decb6-ce1d-47d3-864d-b310a591cd8f" name="Changes" comment="Package: Bug Fixes">
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,8 @@
       <workItem from="1697914455771" duration="1304000" />
       <workItem from="1697915952048" duration="123000" />
       <workItem from="1697921486688" duration="263000" />
-      <workItem from="1697923613310" duration="403000" />
+      <workItem from="1697923613310" duration="579000" />
+      <workItem from="1697924468594" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="NPM: Structure">
       <option name="closed" value="true" />
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697916059817</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Package: Bug Fixes">
+      <option name="closed" value="true" />
+      <created>1697924100466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697924100466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +201,7 @@
     <MESSAGE value="Package: Rewritten" />
     <MESSAGE value="Package: Added ESLint &amp; Jest" />
     <MESSAGE value="Package: Removed Peer Dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package: Removed Peer Dependencies" />
+    <MESSAGE value="Package: Bug Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package: Bug Fixes" />
   </component>
 </project>
