@@ -1,4 +1,4 @@
-export const mufe = new Map();
+export const mufe = new Map<string, any>();
 
 /** The Mufe's hook
  * @param key The cache key
@@ -6,7 +6,7 @@ export const mufe = new Map();
  */
 
 export function useMufe<T>(
-  key: any,
+  key: string,
 
   options?: {
     /** Revalidation time (in seconds) */

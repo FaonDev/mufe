@@ -1,4 +1,6 @@
+.eslintrc.js
 .idea
+jest.config.js
 mufe-*.tgz
 src
 test
