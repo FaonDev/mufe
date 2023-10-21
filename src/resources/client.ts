@@ -1,23 +1,18 @@
-export class MufeClient {
-  cacheMap = new Map<string, any>();
+export const mufe = new Map();
 
-  constructor(public options?: { revalidation?: number }) {}
+export function useMufe<T>({
+  id,
+  revalidate,
+  update,
+}: {
+  id: any;
+  revalidate?: number;
+  update: () => T;
+}): T {
+  const value = mufe.has(id) ? mufe.get(id) : mufe.set(id, update()).get(id);
 
-  use<T>(key: string): [value: T, setValue: (value: T) => void] {
-    const value = this.cacheMap.get(key);
+  if (mufe.has(id) && revalidate)
+    setTimeout(() => mufe.delete(id), revalidate * 1000);
 
-    const setValue = (value: T) => {
-      this.cacheMap.set(key, value);
-
-      const revalidation = this.options?.revalidation;
-
-      if (!revalidation || isNaN(revalidation)) return;
-
-      setTimeout(() => {
-        this.cacheMap.delete(key);
-      }, revalidation * 1000);
-    };
-
-    return [value, setValue];
-  }
+  return value;
 }

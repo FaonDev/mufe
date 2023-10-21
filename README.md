@@ -11,15 +11,15 @@ A cache-based database.
 ## Usage (TypeScript)
 
 ```ts
-import { MufeClient } from "mufe";
+import { useMufe } from "mufe";
 
-const mufe = new MufeClient({
-  revalidation: 30, // 30 seconds
+const foo = useMufe({
+  id: "foo",
+  revalidate: 5, // 5 seconds
+  update: () => "bar",
 });
 
-const [foo, setFoo] = mufe.use<string>("foo");
-
-if (!foo) setFoo("bar");
+console.log(foo); // bar
 ```
 
 ## Examples
