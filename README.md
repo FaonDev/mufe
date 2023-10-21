@@ -13,8 +13,7 @@ A cache-based database.
 ```ts
 import { useMufe } from "mufe";
 
-const foo = useMufe({
-  id: "foo",
+const foo = useMufe("foo", {
   revalidate: 5, // 5 seconds
   update: () => "bar",
 });

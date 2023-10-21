@@ -1,18 +1,41 @@
 export const mufe = new Map();
 
-export function useMufe<T>({
-  id,
-  revalidate,
-  update,
-}: {
-  id: any;
-  revalidate?: number;
-  update: () => T;
-}): T {
-  const value = mufe.has(id) ? mufe.get(id) : mufe.set(id, update()).get(id);
+/** The Mufe's hook
+ * @param key The cache key
+ * @param options Extra options
+ */
 
-  if (mufe.has(id) && revalidate)
-    setTimeout(() => mufe.delete(id), revalidate * 1000);
+export function useMufe<T>(
+  key: any,
 
+  options?: {
+    /** Revalidation time (in seconds) */
+
+    revalidate?: number;
+
+    /** Replace cached value (can be async) */
+
+    update?: () => T;
+  },
+): T | null {
+  // Return cached value if available
+  if (mufe.has(key)) return mufe.get(key);
+
+  // Returning null value if unavailable
+  if (!options?.update) return null;
+
+  // Destructuring options
+  const { revalidate, update } = options;
+
+  // Declaring updated value
+  const value = update();
+
+  // Setting updated value in cache
+  mufe.set(key, value);
+
+  // Removing cached value after an informed period
+  if (revalidate) setTimeout(() => mufe.delete(key), revalidate * 1000);
+
+  // Returning updated value
   return value;
 }

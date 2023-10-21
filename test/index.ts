@@ -1,7 +1,6 @@
 import { useMufe } from "../dist";
 
-const foo = useMufe({
-  id: "foo",
+const foo = useMufe("foo", {
   revalidate: 5, // 5 seconds
   update: () => "bar",
 });
