@@ -34,7 +34,10 @@ export function useMufe<T>(
   mufe.set(key, value);
 
   // Removing cached value after an informed period
-  if (revalidate) setTimeout(() => mufe.delete(key), revalidate * 1000);
+  if (revalidate)
+    setTimeout(() => {
+      if (mufe.has(key)) mufe.delete(key);
+    }, revalidate * 1000);
 
   // Returning updated value
   return value;

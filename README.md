@@ -2,13 +2,16 @@
 
 # Mufe.js
 
-A cache-based database.
+**M**ap-based\
+**U**tility\
+**F**or\
+**E**fficiency
 
 - **Familiar:** Based on React hooks.
 - **Fast:** Fully synchronous queries.
 - **Lightweight:** No dependencies needed.
 
-## Usage (TypeScript)
+## Usage (ESM)
 
 ```ts
 import { useMufe } from "mufe";

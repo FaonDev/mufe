@@ -1,6 +1,6 @@
 {
   "author": "faon",
-  "description": "A cache-based database (alpha release)",
+  "description": "Map-based utility for efficiency (alpha release)",
   "devDependencies": {
     "@types/jest": "^29.5.6",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
@@ -23,5 +23,5 @@
     "lint": "eslint .",
     "test": "jest"
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }
